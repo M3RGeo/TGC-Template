@@ -1,31 +1,31 @@
 <?php
 /*
- *	Made by Samerton | Revamped by Xemah
- *	https://github.com/NamelessMC/Nameless/
+ *	Made by Samerton | Revamped by Xemah | Revamped And Build on By Authors
+ *	https://github.com/TheGamersCommunity/TGC-Template
  *	NamelessMC version 2.0.0-pr9
  *
  *	License: MIT
  *
- *	DefaultRevamp Template
+ *	Relay Template
  */
 
-class DefaultRevamp_Template extends TemplateBase {
+class Relay_Template extends TemplateBase {
 	private $_language, $_user, $_pages, $_template;
 	
 	public function __construct($cache, $smarty, $language, $user, $pages) {
 		
 		$template = array(
-			'name' => 'DefaultRevamp',
+			'name' => 'Relay',
 			'version' => '2.0.0-pr9',
 			'nl_version' => "2.0.0-pr9",
-			'author' => '<a href="https://xemah.com/" target="_blank">Xemah</a>',
+			'author' => '<a href="https://thegamerscommunity.site" target="_blank">M3RGeo</a>',
 		);
 		
 		$template['path'] = (defined('CONFIG_PATH') ? CONFIG_PATH : '') . '/custom/templates/' . $template['name'] . '/';
 		
 		parent::__construct($template['name'], $template['version'], $template['nl_version'], $template['author']);
 
-		$this->_settings = ROOT_PATH . '/custom/templates/DefaultRevamp/template_settings/settings.php';
+		$this->_settings = ROOT_PATH . '/custom/templates/Relay/template_settings/settings.php';
 
 		$this->addCSSFiles(array(
 			$template['path'] . 'css/semantic.min.css' => array(),
@@ -138,5 +138,5 @@ class DefaultRevamp_Template extends TemplateBase {
 	}
 }
 
-$template = new DefaultRevamp_Template($cache, $smarty, $language, $user, $pages);
+$template = new Relay_Template($cache, $smarty, $language, $user, $pages);
 $template_pagination = array('div' => 'ui mini pagination menu', 'a' => '{x}item');
