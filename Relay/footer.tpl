@@ -9,6 +9,8 @@
           <div class="ui inverted link list">
             <span class="item">&copy; {$SITE_NAME} {'Y'|date}</span>
             <span class="item">Powered By <a href="https://namelessmc.com">NamelessMC</a></span>
+            <span class="item"><script async src="https://arc.io/widget.min.js#QDjJ4Zay"></script></span>
+            <span class="item"><script type="text/javascript"> var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date(); (function(){ var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0]; s1.async=true; s1.src='https://embed.tawk.to/5fc511c8920fc91564cc0f4d/default'; s1.charset='UTF-8'; s1.setAttribute('crossorigin','*'); s0.parentNode.insertBefore(s1,s0); })(); </script></span>
             {if $PAGE_LOAD_TIME}
               <span class="item" id="page_load"></span>
             {/if}
