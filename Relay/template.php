@@ -38,6 +38,8 @@ class Relay_Template extends TemplateBase {
 			$template['path'] . 'js/jquery.cookie.js' => array(),
 			$template['path'] . 'js/semantic.min.js' => array(),
 			$template['path'] . 'js/toastr.min.js' => array(),
+			$template['path'] . 'js/Tawk.js' => array(),
+			$template['path'] . 'js/widget.min.js#QDjJ4Zay' => array(),
 		));
 		
 		$smarty->assign('TEMPLATE', $template);
