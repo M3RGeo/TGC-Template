@@ -1,0 +1,23 @@
+{
+    "PRIMARY_OP": "1",
+    "PRIMARY_1": "rgb(80, 105, 255)",
+    "PRIMARY_2": "rgb(198, 55, 255)",
+    "SECONDARY": "rgb(194, 194, 194)",
+    "LIGHT": "rgb(231, 231, 231)",
+    "DARK": "rgb(22, 22, 22)",
+    "SUCCESS": "rgb(49, 206, 0)",
+    "INFO": "rgb(2, 190, 249)",
+    "WARNING": "rgb(247, 247, 0)",
+    "DANGER": "rgb(253, 0, 0)",
+    "BODY": "rgb(6, 6, 6)",
+    "HICONS": "rgb(175, 175, 176)",
+    "F_1": "rgb(164, 163, 163)",
+    "F_2": "rgb(168, 167, 167)",
+    "F_3": "rgb(243, 241, 241)",
+    "F_4": "rgb(36, 36, 36)",
+    "CARD_B": "rgb(40, 40, 40)",
+    "CARD_F": "rgb(61, 60, 60)",
+    "FUENTE": "@import url('https:\/\/fonts.googleapis.com\/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap');",
+    "FUENTE2": "font-family: 'Montserrat', sans-serif;",
+    "SFUENTE": "0.9rem"
+}
