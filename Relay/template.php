@@ -190,9 +190,9 @@ class Mooz_Template extends TemplateBase {
     public function __construct($cache, $smarty, $language, $user, $pages){
         $Mooz_General = $GLOBALS['Mooz_General'];
         $template = array(
-            'name' => 'Mooz',
-            'version' => '2.0.0-pr7',
-            'nl_version' => "2.0.0-pr7",
+            'name' => 'Relay',
+            'version' => '2.0.0-pr9',
+            'nl_version' => "2.0.0-pr9",
             'author' => '<a href="https://discord.gg/SKk3GvQ" class="badge badge-warning" target="_blank">CubericoStudios</a>',
             'path' => (defined('CONFIG_PATH') ? CONFIG_PATH : '') . '/custom/templates/Mooz/',
             'assets' => (defined('CONFIG_PATH') ? CONFIG_PATH : '') . '/custom/templates/Mooz/core/assets/',
