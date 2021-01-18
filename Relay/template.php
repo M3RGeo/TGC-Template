@@ -1,6 +1,6 @@
 <?php
 /*
- *	NamelessMC by Samerton |  Mooz Template by zJerino
+ *	NamelessMC by Samerton |  Mooz Template by zJerino } Updated to Pre 9 by M3RGeo
  *
  *	License: MIT
  *	Cache d158baba76918cba404ac4ed3da2b2ff345227cd.cache
