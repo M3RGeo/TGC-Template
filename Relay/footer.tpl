@@ -134,28 +134,10 @@
         {if ($Mz_towk gte 1)}
         <!--Start of Tawk.to Script-->
             <script type="text/javascript">
-                var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-                (function(){
-                var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-                s1.async=true;
-                s1.src='https://embed.tawk.to/{$Mz_addons.1}';
-                s1.charset='UTF-8';
-                s1.setAttribute('crossorigin','*');
-                s0.parentNode.insertBefore(s1,s0);
-                })();
-            </script>
-                <!--End of Tawk.to Script-->
+                <script type="text/javascript"> var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date(); (function(){ var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0]; s1.async=true; s1.src='https://embed.tawk.to/5fc511c8920fc91564cc0f4d/default'; s1.charset='UTF-8'; s1.setAttribute('crossorigin','*'); s0.parentNode.insertBefore(s1,s0); })(); </script>
         {/if}
         {if ($Mz_addons.2 gte "1")}
-        <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
-            const crate = new Crate({
-              server: '{$Mz_addons.3}',
-              channel: '{$Mz_addons.4}',
-              location: ['{$Mz_addons.6}', '{$Mz_addons.7}']
-            })
-            
-            //crate.notify('Hi NamelessMC')
-          </script>
+        <script async src="https://arc.io/widget.min.js#QDjJ4Zay"></script>
         {/if}
     {foreach from=$PARTICLESJS item=PJS}{$PJS}{/foreach}
 
